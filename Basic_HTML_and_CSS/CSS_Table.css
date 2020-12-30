@@ -1,0 +1,18 @@
+table,th,td {
+    border-style:solid;
+    border: darkblue;
+    
+    }
+
+td:hover{
+        background-color: darkturquoise;
+        color: darkslategray;
+    }
+tr,th{
+    background-color: lightblue;
+    color: gray;
+    }
+
+tr,td{background-color: azure;
+    color: darkgrey;
+    }
