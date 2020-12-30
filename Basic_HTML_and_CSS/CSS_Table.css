@@ -1,7 +1,9 @@
 table,th,td {
     border-style:solid;
-    border: darkblue;
-    
+    border-color: darkblue;
+    border-collapse: collapse;
+    width: 25%;
+    text-align: center;
     }
 
 td:hover{
