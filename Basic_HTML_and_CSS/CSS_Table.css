@@ -10,11 +10,13 @@ td:hover{
         background-color: darkturquoise;
         color: darkslategray;
     }
-tr,th{
+th{
     background-color: lightblue;
     color: gray;
+    height: 50px;
     }
 
 tr,td{background-color: azure;
     color: darkgrey;
+    height: 40px;
     }
