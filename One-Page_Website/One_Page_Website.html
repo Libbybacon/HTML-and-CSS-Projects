@@ -23,6 +23,8 @@
                 
             }
             
+            /* for some reason when I use this class for the "gallery" header it makes the font nice and big but when I use it for "videos" and "reservations" I have to manually make the font bigger to match the "gallery" header... */
+            
  /* --------------- H E R O  I M A G E --------------- */
         
             .hero-image{
@@ -50,6 +52,8 @@
                 text-shadow: 3px 3px 3px darkolivegreen;
                 font-family:fantasy;
                 }
+            
+             /* the text over the hero image does not always fit exactly the way I want depending on screen size and whether the browser is in full-screen mode or not *fits in full screen mode* */
         
 /* ---------------- T O P  N A V  B A R ---------------- */    
         
@@ -111,12 +115,16 @@
                 
             }
             
+            /* Can't seem to figure out how to get images to sit in the middle of the columns.  I keep getting a big empty space on the right hand side of the container which I make up for by adding padding to the left side of the container, but now I have larger spaces to the left and right of the columns than I'd like. */
+            
             .column iframe{
                 opacity: 1;
                 cursor: pointer;
                 border: 2.5px solid darkolivegreen;
                 border-radius: 15px;
             }
+            
+            /* Same issue with spacing as photo container */
             
             .column img:hover{
                 opacity: 0.8;
@@ -201,13 +209,13 @@
 
 
     <!-- HERO IMAGE-->
-<div id="home">
     <div class="hero-image">
         <div class="hero-text">
             <h2>Explore the PNW<br> With Us!</h2>    
         </div>
     </div>
-</div>
+
+                                <!-- the text over the hero image does not always fit exactly the way I want depending on screen size and whether the browser is in full-screen mode or not *fits in full screen mode* -->
     <!--END HERO IMAGE-->
     
     <!-- GALLERY -->
