@@ -265,11 +265,11 @@ section {
     font-family: fantasy;
 }
 
-.reservation input [type="text"] {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color:rgb(72, 57, 3);
+    color:antiquewhite;
     padding: 2% 1% 2% 7%;
     width: 40%;
     border-top: 1px solid #090b0d;
@@ -278,7 +278,7 @@ section {
     border-left: 1px solid #090b0d;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161b;
+    background: rgb(72, 57, 3);
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: fantasy;
 }
@@ -305,7 +305,7 @@ section {
 }
 
 .terms:hover {
-    color: ant;
+    color: antiquewhite;
     text-decoration: underline;
 }
 
