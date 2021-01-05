@@ -1,0 +1,115 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: burlywood;
+    text-align: center;
+    }
+
+.header {
+    text-align: center;
+    font-family: fantasy;
+    color: darkolivegreen;
+    text-shadow: 2px 2px 1px; 
+    
+}
+
+/* for some reason when I use this class for the "gallery" header it makes the font nice and big but when I use it for "videos" and "reservations" I have to manually make the font bigger to match the "gallery" header... */
+
+/* --------------- H E R O  I M A G E --------------- */
+
+    #home {
+        background: url(thumbnails/Thumbnail_11.jpg) no-repeat 50% 50%;
+        background-attachment: ;
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        display: block;
+        height: auto;
+        padding-top: 350px; /* This is spacer before the Main title logo*/
+        padding-bottom: 500px; /* This is spacer after Main title logo*/
+        color: #fff;
+    }
+
+/* ---------------- T O P  N A V  B A R ---------------- */    
+
+.topnav{
+    background-color: burlywood;
+    overflow: hidden;
+    }
+
+/* TOP NAV TAB DISPLAY */
+
+.topnav a {
+    float:left;
+    display: block;
+    color: darkolivegreen;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 16.2px;
+    text-shadow: 1px 1px 1px;
+    }
+
+/* TOP NAV HOVER */
+
+.topnav a:hover{
+    background-color: cornsilk;
+    color:darkolivegreen;
+    }   
+
+/* TOP NAV ACTIVE SECTION*/
+
+.topnav a.active{
+    background-color:antiquewhite;
+    color:darkolivegreen;
+    }
+
+.topnav .icon{
+    display: none;
+    }
+
+/* ------------ P H O T O  G A L L E R Y ----------- */
+
+
+/*-------------------V I D E O S-------------------*/    
+.container2 {
+    width: 400px;
+    margin: 0 auto;
+    background-color: bisque;
+    border-radius: 15px;
+    border: 3px solid saddlebrown;
+    padding-left: 65px;
+}
+
+
+
+/*-------------R E S E R V A T I O N S-------------*/            
+
+.container3 {
+    width: 500px;
+    margin: 0 auto;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 15px;
+    color: darkolivegreen;
+    text-shadow: 1px 1px 2px;
+    border: 3px solid saddlebrown;
+    
+}
+
+
+/*------------------F O O T E R-------------------*/
+
+.footer{
+    position:sticky;
+    left: 1px;
+    bottom: 0;
+    width: 100%;
+    background-color: darkolivegreen;
+    color:antiquewhite;
+    text-shadow: 1px 1px 1px burlywood;
+    text-align: center;
+    border-top: 3px solid saddlebrown;
+}
+
+/*---------------------------- E N D S TY L E G U I D E L I N E S !----------------------- */        
