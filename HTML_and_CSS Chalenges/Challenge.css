@@ -1,0 +1,149 @@
+h2 {
+    text-align: center;
+}
+
+p:hover {
+    background-color: seagreen;
+    color: silver;
+}
+
+
+/* ==========================
+NAVBAR W BACKGROUND COLOR, FONT COLOR, HOVER
+=============================*/
+
+.navbar {
+    overflow: hidden;
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: silver;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: silver;
+    color: violet;
+  }
+  
+/*====================================
+PHOTO W TEXT OVERLAY, FILTER, & ROUNDED
+=====================================*/
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter:saturate(180%);
+    border-radius: 120px;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color:white;
+    font-family: cursive;
+    font-size: 1.5em;
+    position:absolute;
+    top: 11%;
+    left: 40%;
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transfom: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*==============================================
+TABLE W BORDER, PADDING, BR COLOR IN TOP ROW
+===============================================*/
+table, th, td {
+    border: 2px dotted purple;
+    width: 50%; 
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+th {
+    background-color: silver;
+}
+
+.row {
+    display: flex;
+}
+.column {
+    height: 300px;
+    width: 25%;
+    text-align: center;
+    color: purple;
+  
+  }
+  
+/*===============================
+  VIDEO MUTED AUTOPLAY LOOP
+===============================*/
+
+video {
+    display: block;
+    width:50%;
+    margin-left: 25%;
+}
+
+.video{
+    text-align: center;
+    color:silver;
+}
+
+.words {
+    position:absolute;
+    bottom: 10%;
+    left: 50%;
+    font-size: 2em;
+    z-index: 2;
+}
+/*  I've changed the class names of "video" and "words"
+from "container2" and text2. No matter what I've tried, 
+the text I write in the "video" section ends up on the 
+picture at the top.*/
+
+
+/*================================
+    FOOTER: CENTERED. BOLD
+=================================*/
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
