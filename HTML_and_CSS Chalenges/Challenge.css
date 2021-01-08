@@ -2,6 +2,12 @@ h2 {
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    p {
+        color: blue;
+    }
+}
+
 p:hover {
     background-color: seagreen;
     color: silver;
@@ -123,13 +129,15 @@ video {
 .video{
     text-align: center;
     color:silver;
+    position: relative;
 }
 
 .words {
     position:absolute;
-    bottom: 10%;
+    top:20%;
     left: 50%;
     font-size: 2em;
+    transform: translate(-50%, -50%);
     z-index: 2;
 }
 /*  I've changed the class names of "video" and "words"
