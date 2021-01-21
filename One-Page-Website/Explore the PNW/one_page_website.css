@@ -221,10 +221,26 @@ h4 {
 /*  Create four equal columns that float next to each other  */
 .column {
     float: left;
-    width: 10%%;
+    width: 10%;
 }
 
-/*  The Modal background  */
+/* ================== The Modal ==================== */
+
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*  Create four equal columns that float next to each other  */
+.column {
+    float: left;
+    width: 25%;
+}
+/*  Background  */
 .modal {
     display: none;
     position: fixed;
