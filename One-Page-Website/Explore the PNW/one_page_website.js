@@ -36,9 +36,9 @@ function showSlides(n) {
     }
     // Give active properties to dot that corresponds to current active slide
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace("active", "");
+        dots[i].className = dots[i].className.replace("active", "");//Change thumbnail attribute from active to inacative
     }
-    slides[slideIndex-1].style.display = "block";
+    slides[slideIndex-1].style.display = "block"; // Display current slide as block
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt; // Assign alt value to captionText
 } 
