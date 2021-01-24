@@ -1,6 +1,6 @@
 html, body {
     font-family: fantasy;
-    font-size: 1.2em;
+    font-size: 1.2vw;
     background-image: url(Thumbnails/Mountain\ Landscape\ First\ Person1_RF_RMPL-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@ html, body {
 h1 {
     color: rgb(59, 38, 23);
     text-shadow: 2px 2px 3px burlywood;
-    font-size: 1.8em;
+    font-size: 3vw;
     text-align: center;
  }
 /*============================================
@@ -88,6 +88,7 @@ h1 {
                 HOME SECTION
 =============================================*/
 .hero-image {
+    position: relative;
     background-image: url(Thumbnails/Thumbnail_11.png);
     height: 700px;
     background-position: center;
@@ -99,14 +100,16 @@ h1 {
 
 .hero-text {
     position: absolute;
-    top: 68%;
-    left: 29.5%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
+    text-align: center;
+    margin-top: 22.5%;
+    margin-left: 16.5%;
+    font-size: 2.9vw;
     font-weight: bolder;
     text-shadow: 3px 3px 1px rgb(72, 57, 3);
     color: white;
+
 }
+
 
 /*=============================================
                 GALLERY SECTION
@@ -269,7 +272,7 @@ h4 {
     position: absolute;
     top: 10px;
     right: 25px;
-    font-size: 45px;
+    font-size: 3vw;
     font-weight: bold;
 }
 
@@ -296,7 +299,7 @@ h4 {
     margin-top: -50%;
     color: white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 3vw;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -318,7 +321,7 @@ h4 {
 /*  Number Text  */
 .numbertext {
     color: #f2f2f2;
-    font-size: 25px;
+    font-size: 2.5vw;
     padding: 8px 12px;
     position: absolute;
     top: 0;
@@ -400,7 +403,7 @@ img.hover-shadow {
     margin: 0 auto;
     color:#3b744dee;
     font-weight: 700;
-    font-size: .85em;
+    font-size: 1.7vw;
     letter-spacing: 0pt;
     word-spacing: 0pt;
     text-shadow: 1px 1px 2px rgb(72, 57, 3);
@@ -412,7 +415,7 @@ img.hover-shadow {
     margin: 0 auto;
     color:#3b744dee;
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 2.5vw;
     font-variant: small-caps;
     letter-spacing: .2pt;
     word-spacing: .3pt;
@@ -422,12 +425,12 @@ img.hover-shadow {
     color:#3b744dee;
     width: 50%;
     margin: 0 auto;
-    font-size: 0.9em;
+    font-size: 1.2vw;
     text-align: center;
 }
 
 .reservation form {
-    font-size: 15px;
+    font-size: 1.3vw;
     outline: none;
     font-weight: 600;
     color:rgb(72, 57, 3);
@@ -442,7 +445,7 @@ img.hover-shadow {
 }
 
 .reservation input[type="text"] {
-    font-size: 15px;
+    font-size: 1.3vw;
     outline: none;
     font-weight: 600;
     color:antiquewhite;
@@ -468,7 +471,7 @@ img.hover-shadow {
 }
 
 .terms {
-    font-size: 16px;
+    font-size: 1.1vw;
     line-height: 5px;
     color: rgb(5, 58, 51);
     cursor: pointer; 
@@ -492,9 +495,10 @@ img.hover-shadow {
     text-align: center;
     font-family: fantasy;
     margin-left:  35%;
+    margin-top: 4%;
     padding: 7px 0px;
     width: 30%;
-    font-size: 20px;
+    font-size: 1.3vw;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #3b744dee;
